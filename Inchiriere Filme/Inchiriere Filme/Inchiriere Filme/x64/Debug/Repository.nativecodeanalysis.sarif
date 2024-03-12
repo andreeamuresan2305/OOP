@@ -1,0 +1,1487 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Film::getId' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Film.h"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 6,
+                  "endLine": 16,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Film::getId",
+                  "decoratedName": "?getId@Film@@QEBAHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Film::getAn' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Film.h"
+                },
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 6,
+                  "endLine": 25,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Film::getAn",
+                  "decoratedName": "?getAn@Film@@QEBAHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Film::setAn' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Film.h"
+                },
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 6,
+                  "endLine": 39,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Film::setAn",
+                  "decoratedName": "?setAn@Film@@QEAAHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 63,
+                  "endLine": 16,
+                  "endColumn": 63
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repo::store",
+                  "decoratedName": "?store@Repo@@QEAAXAEBVFilm@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 14,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 82
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 65
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 63
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 63
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 63
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 20,
+                  "endLine": 33,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repo::delete_r",
+                  "decoratedName": "?delete_r@Repo@@QEAAXAEBVFilm@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                },
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 62,
+                  "endLine": 22,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repo::delete_r",
+                  "decoratedName": "?delete_r@Repo@@QEAAXAEBVFilm@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 81
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 64
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 62
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 62
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 62
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 47,
+                  "endLine": 46,
+                  "endColumn": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repo::find",
+                  "decoratedName": "?find@Repo@@QEBA?AVFilm@@AEBH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 46,
+                            "startColumn": 49
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 46,
+                            "startColumn": 47
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 46,
+                            "startColumn": 47
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 46,
+                            "startColumn": 47
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                },
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 62,
+                  "endLine": 52,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repo::update",
+                  "decoratedName": "?update@Repo@@QEAAXAEBHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 49,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 81
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 64
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 62
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 62
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 62
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                },
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repo::update",
+                  "decoratedName": "?update@Repo@@QEAAXAEBHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 49,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 86
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'VectDinNewDeleteT<Film>::dec_size' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/template.h"
+                },
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 7,
+                  "endLine": 67,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectDinNewDeleteT<Film>::dec_size",
+                  "decoratedName": "?dec_size@?$VectDinNewDeleteT@VFilm@@@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'VectDinNewDeleteT<Film>::operator[]' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/template.h"
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 12,
+                  "endLine": 55,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectDinNewDeleteT<Film>::[]",
+                  "decoratedName": "??A?$VectDinNewDeleteT@VFilm@@@@QEAAAEAVFilm@@_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Don't use pointer arithmetic. Use span instead (bounds.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/template.h"
+                },
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 3,
+                  "endLine": 57,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectDinNewDeleteT<Film>::[]",
+                  "decoratedName": "??A?$VectDinNewDeleteT@VFilm@@@@QEAAAEAVFilm@@_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'VectDinNewDeleteT<Film>::get' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/template.h"
+                },
+                "region": {
+                  "startLine": 194,
+                  "startColumn": 40,
+                  "endLine": 194,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectDinNewDeleteT<Film>::get",
+                  "decoratedName": "?get@?$VectDinNewDeleteT@VFilm@@@@QEBAAEAVFilm@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Don't use pointer arithmetic. Use span instead (bounds.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/template.h"
+                },
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 2,
+                  "endLine": 195,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectDinNewDeleteT<Film>::get",
+                  "decoratedName": "?get@?$VectDinNewDeleteT@VFilm@@@@QEBAAEAVFilm@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'VectDinNewDeleteT<Film>::begin' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/template.h"
+                },
+                "region": {
+                  "startLine": 223,
+                  "startColumn": 56,
+                  "endLine": 223,
+                  "endColumn": 56
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectDinNewDeleteT<Film>::begin",
+                  "decoratedName": "?begin@?$VectDinNewDeleteT@VFilm@@@@QEAA?AV?$IteratorVectorT@VFilm@@@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'VectDinNewDeleteT<Film>::end' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/template.h"
+                },
+                "region": {
+                  "startLine": 229,
+                  "startColumn": 56,
+                  "endLine": 229,
+                  "endColumn": 56
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectDinNewDeleteT<Film>::end",
+                  "decoratedName": "?end@?$VectDinNewDeleteT@VFilm@@@@QEAA?AV?$IteratorVectorT@VFilm@@@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/template.h"
+                },
+                "region": {
+                  "startLine": 214,
+                  "startColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectDinNewDeleteT<Film>::ensureCapacity",
+                  "decoratedName": "?ensureCapacity@?$VectDinNewDeleteT@VFilm@@@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26400",
+          "message": {
+            "text": "Do not assign the result of an allocation or a function call with an owner<T> return value to a raw pointer, use owner<T> instead (i.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/template.h"
+                },
+                "region": {
+                  "startLine": 214,
+                  "startColumn": 18,
+                  "endLine": 214,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectDinNewDeleteT<Film>::ensureCapacity",
+                  "decoratedName": "?ensureCapacity@?$VectDinNewDeleteT@VFilm@@@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/template.h"
+                },
+                "region": {
+                  "startLine": 218,
+                  "startColumn": 2,
+                  "endLine": 218,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectDinNewDeleteT<Film>::ensureCapacity",
+                  "decoratedName": "?ensureCapacity@?$VectDinNewDeleteT@VFilm@@@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/template.h"
+                          },
+                          "region": {
+                            "startLine": 218,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'IteratorVectorT<Film>::element' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/template.h"
+                },
+                "region": {
+                  "startLine": 264,
+                  "startColumn": 38,
+                  "endLine": 264,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IteratorVectorT<Film>::element",
+                  "decoratedName": "?element@?$IteratorVectorT@VFilm@@@@QEBAAEAVFilm@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Don't use pointer arithmetic. Use span instead (bounds.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/template.h"
+                },
+                "region": {
+                  "startLine": 265,
+                  "startColumn": 2,
+                  "endLine": 265,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IteratorVectorT<Film>::element",
+                  "decoratedName": "?element@?$IteratorVectorT@VFilm@@@@QEBAAEAVFilm@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Film::id' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Film.h"
+                },
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 2,
+                  "endLine": 13,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Film::{ctor}",
+                  "decoratedName": "??0Film@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Film::id"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Film::an' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Film.h"
+                },
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 2,
+                  "endLine": 13,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Film::{ctor}",
+                  "decoratedName": "??0Film@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Film::an"
+          }
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'IteratorVectorT<Film>::next' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/template.h"
+                },
+                "region": {
+                  "startLine": 269,
+                  "startColumn": 33,
+                  "endLine": 269,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IteratorVectorT<Film>::next",
+                  "decoratedName": "?next@?$IteratorVectorT@VFilm@@@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class IteratorVectorT<class Film>', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/template.h"
+                },
+                "region": {
+                  "startLine": 295,
+                  "startColumn": 33,
+                  "endLine": 295,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IteratorVectorT<Film>::=",
+                  "decoratedName": "??4?$IteratorVectorT@VFilm@@@@QEAA_NAEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31937.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Film.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "cd84766fc437b0b2fe7f4f2a01da2c54106f36d582e18c83393be3d9ec67c798"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/Repository.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "7a5da046aaf79ecd3d12e10ffae44257c3fa4ca0d9fe0fc470b15fde0a1f18a0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Andreea/Desktop/Inchiriere Filme/Inchiriere Filme/template.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "5fdc3e08e3fc685ec636ebc5f3f660ca0abc3a94c71efa8430f5fbaaecc40463"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/andreea/desktop/inchiriere filme/inchiriere filme/repository.h"
+          },
+          "hashes": {
+            "sha-256": "4bf739790495c1d771f6a8943aa04c2e97007125c26233c5882d348589f2a94e"
+          }
+        }
+      ]
+    }
+  ]
+}

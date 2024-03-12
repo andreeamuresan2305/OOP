@@ -1,0 +1,4 @@
+D:\Teme oop\Inchiriere Filme\x64\Debug\Inchiriere Filme.exe.lastcodeanalysissucceeded
+D:\Teme oop\Inchiriere Filme\Inchiriere Filme\x64\Debug\NativeCodeAnalysis.read.1.tlog
+C:\Users\Andreea\Desktop\Inchiriere Filme\x64\Debug\Inchiriere Filme.exe.lastcodeanalysissucceeded
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\x64\Debug\NativeCodeAnalysis.read.1.tlog

@@ -1,0 +1,180 @@
+﻿  Consola.cpp
+  main.cpp
+  Repository.cpp
+  Service.cpp
+  teste_repo.cpp
+  teste_service.cpp
+  validator.cpp
+  Running Code Analysis for C/C++...
+  Generating Code...
+  Inchiriere Filme.vcxproj -> C:\Users\Andreea\Desktop\Inchiriere Filme\x64\Debug\Inchiriere Filme.exe
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Film.h(16): warning C26440: Function 'Film::getId' can be declared 'noexcept' (f.6).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Film.h(25): warning C26440: Function 'Film::getAn' can be declared 'noexcept' (f.6).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Film.h(39): warning C26440: Function 'Film::setAn' can be declared 'noexcept' (f.6).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Film.cpp(21): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Film.cpp(21): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Film.cpp(21): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Film.cpp(22): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Film.cpp(22): warning C26823: Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Film.cpp(22): warning C26823: Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Consola.cpp(29): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Consola.cpp(29): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Consola.cpp(29): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Consola.cpp(90): warning C26496: The variable 'ex' does not change after construction, mark it as const (con.4).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Consola.cpp(93): warning C26496: The variable 'ex' does not change after construction, mark it as const (con.4).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Consola.cpp(37): warning C26494: Variable 'an_min' is uninitialized. Always initialize an object (type.5).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Consola.cpp(37): warning C26494: Variable 'an_max' is uninitialized. Always initialize an object (type.5).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Consola.cpp(37): warning C26494: Variable 'id' is uninitialized. Always initialize an object (type.5).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Consola.cpp(82): warning C26823: Dereferencing a possibly null pointer '(this->ConsolUI::srv)' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\template.h(137): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\template.h(194): warning C26440: Function 'VectDinNewDeleteT<Film>::get' can be declared 'noexcept' (f.6).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\template.h(195): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\template.h(101): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\template.h(104): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Repository.h(13): warning C26455: Default constructor should not throw. Declare it 'noexcept' (f.6).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\template.h(91): warning C26455: Default constructor should not throw. Declare it 'noexcept' (f.6).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\template.h(91): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Film.h(13): warning C26495: Variable 'Film::id' is uninitialized. Always initialize a member variable (type.6).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Repository.cpp(16): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Repository.cpp(33): warning C26451: Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Repository.cpp(22): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Repository.cpp(46): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Repository.cpp(52): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Repository.cpp(54): warning C26823: Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\template.h(67): warning C26440: Function 'VectDinNewDeleteT<Film>::dec_size' can be declared 'noexcept' (f.6).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\template.h(55): warning C26440: Function 'VectDinNewDeleteT<Film>::operator[]' can be declared 'noexcept' (f.6).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\template.h(57): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\template.h(223): warning C26440: Function 'VectDinNewDeleteT<Film>::begin' can be declared 'noexcept' (f.6).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\template.h(229): warning C26440: Function 'VectDinNewDeleteT<Film>::end' can be declared 'noexcept' (f.6).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\template.h(214): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\template.h(214): warning C26400: Do not assign the result of an allocation or a function call with an owner<T> return value to a raw pointer, use owner<T> instead (i.11).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\template.h(218): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\template.h(264): warning C26440: Function 'IteratorVectorT<Film>::element' can be declared 'noexcept' (f.6).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\template.h(265): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\template.h(269): warning C26440: Function 'IteratorVectorT<Film>::next' can be declared 'noexcept' (f.6).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\template.h(295): warning C26432: If you define or delete any default operation in the type 'class IteratorVectorT<class Film>', define or delete them all (c.21).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Service.cpp(14): warning C26451: Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Service.cpp(6): warning C26429: Symbol 'maiMic' is never tested for nullness, it can be marked as not_null (f.23).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Service.cpp(16): warning C26823: Dereferencing a possibly null pointer 'maiMic' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Service.cpp(43): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Service.cpp(43): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Service.cpp(43): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Service.cpp(87): warning C26822: Dereferencing a null pointer 'nullptr' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Service.cpp(92): warning C26447: The function is declared 'noexcept' but calls function 'getTitlu()' which may throw exceptions (f.6).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Service.cpp(90): warning C26460: The reference argument 'titlu_cautat' for function 'Service::filtrareTitlu' can be marked as const (con.3).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Service.cpp(93): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Service.cpp(99): warning C26447: The function is declared 'noexcept' but calls function 'getAn()' which may throw exceptions (f.6).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Service.cpp(99): warning C26447: The function is declared 'noexcept' but calls function 'getAn()' which may throw exceptions (f.6).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\Service.cpp(100): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\template.h(147): warning C26439: This kind of function should not throw. Declare it 'noexcept' (f.6).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(8): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(8): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(8): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(12): warning C26823: Dereferencing a possibly null pointer 'allotemp.10' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(12): warning C26823: Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(12): warning C26823: Dereferencing a possibly null pointer 'allotemp.9' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(17): warning C26823: Dereferencing a possibly null pointer 'allotemp.12' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(17): warning C26823: Dereferencing a possibly null pointer 'allotemp.13' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(17): warning C26823: Dereferencing a possibly null pointer 'allotemp.14' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(23): warning C26823: Dereferencing a possibly null pointer 'allotemp.16' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(23): warning C26823: Dereferencing a possibly null pointer 'allotemp.17' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(23): warning C26823: Dereferencing a possibly null pointer 'allotemp.18' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(24): warning C26823: Dereferencing a possibly null pointer 'allotemp.20' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(24): warning C26823: Dereferencing a possibly null pointer 'allotemp.21' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(24): warning C26823: Dereferencing a possibly null pointer 'allotemp.22' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(25): warning C26823: Dereferencing a possibly null pointer 'allotemp.24' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(25): warning C26823: Dereferencing a possibly null pointer 'allotemp.25' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(25): warning C26823: Dereferencing a possibly null pointer 'allotemp.26' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(26): warning C26823: Dereferencing a possibly null pointer 'allotemp.28' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(26): warning C26823: Dereferencing a possibly null pointer 'allotemp.29' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(26): warning C26823: Dereferencing a possibly null pointer 'allotemp.30' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(27): warning C26823: Dereferencing a possibly null pointer 'allotemp.32' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(27): warning C26823: Dereferencing a possibly null pointer 'allotemp.33' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(27): warning C26823: Dereferencing a possibly null pointer 'allotemp.34' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(28): warning C26823: Dereferencing a possibly null pointer 'allotemp.36' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(28): warning C26823: Dereferencing a possibly null pointer 'allotemp.37' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(28): warning C26823: Dereferencing a possibly null pointer 'allotemp.38' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(29): warning C26823: Dereferencing a possibly null pointer 'allotemp.40' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(29): warning C26823: Dereferencing a possibly null pointer 'allotemp.41' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(29): warning C26823: Dereferencing a possibly null pointer 'allotemp.42' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(30): warning C26823: Dereferencing a possibly null pointer 'allotemp.44' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(30): warning C26823: Dereferencing a possibly null pointer 'allotemp.45' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(30): warning C26823: Dereferencing a possibly null pointer 'allotemp.46' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(31): warning C26823: Dereferencing a possibly null pointer 'allotemp.48' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(31): warning C26823: Dereferencing a possibly null pointer 'allotemp.49' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(31): warning C26823: Dereferencing a possibly null pointer 'allotemp.50' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(46): warning C26496: The variable 'e' does not change after construction, mark it as const (con.4).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(36): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(36): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(36): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(37): warning C26823: Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(37): warning C26823: Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(37): warning C26823: Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(56): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(56): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(56): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(57): warning C26823: Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(57): warning C26823: Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(57): warning C26823: Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(59): warning C26823: Dereferencing a possibly null pointer 'allotemp.10' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(59): warning C26823: Dereferencing a possibly null pointer 'allotemp.11' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(59): warning C26823: Dereferencing a possibly null pointer 'allotemp.12' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(71): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(71): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(71): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(72): warning C26823: Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(72): warning C26823: Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_repo.cpp(72): warning C26823: Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(8): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(8): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(8): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(13): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(13): warning C26823: Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(13): warning C26823: Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(19): warning C26823: Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(19): warning C26823: Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(19): warning C26823: Dereferencing a possibly null pointer 'allotemp.9' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(29): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(29): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(29): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(30): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(30): warning C26823: Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(30): warning C26823: Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(41): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(38): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(38): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(38): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(39): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(39): warning C26823: Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(39): warning C26823: Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(49): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(49): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(49): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(50): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(50): warning C26823: Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(50): warning C26823: Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(58): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(58): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(58): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(59): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(59): warning C26823: Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(59): warning C26823: Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(73): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(76): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(79): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(69): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(69): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(69): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(70): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(70): warning C26823: Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(70): warning C26823: Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(71): warning C26823: Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(71): warning C26823: Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\teste_service.cpp(71): warning C26823: Dereferencing a possibly null pointer 'allotemp.9' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\template.h(60): warning C26440: Function 'VectDinNewDeleteT<Film>::operator[]' can be declared 'noexcept' (f.6).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\template.h(62): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\validator.cpp(30): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\validator.cpp(30): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\validator.cpp(30): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\template.h(190): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\template.h(216): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).

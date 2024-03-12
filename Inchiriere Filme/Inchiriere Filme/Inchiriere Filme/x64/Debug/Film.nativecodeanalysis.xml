@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Film.h</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Film::getId' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Film::getId</FUNCTION>
+    <DECORATED>?getId@Film@@QEBAHXZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Film.h</FILENAME>
+      <LINE>25</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Film::getAn' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Film::getAn</FUNCTION>
+    <DECORATED>?getAn@Film@@QEBAHXZ</DECORATED>
+    <FUNCLINE>25</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Film.h</FILENAME>
+      <LINE>39</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Film::setAn' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Film::setAn</FUNCTION>
+    <DECORATED>?setAn@Film@@QEAAHH@Z</DECORATED>
+    <FUNCLINE>39</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Film.cpp</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testFilm</FUNCTION>
+    <DECORATED>?testFilm@@YAXXZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Film.cpp</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testFilm</FUNCTION>
+    <DECORATED>?testFilm@@YAXXZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Film.cpp</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testFilm</FUNCTION>
+    <DECORATED>?testFilm@@YAXXZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Film.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testFilm</FUNCTION>
+    <DECORATED>?testFilm@@YAXXZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>53</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>53</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Film.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testFilm</FUNCTION>
+    <DECORATED>?testFilm@@YAXXZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>53</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>53</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Film.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>53</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testFilm</FUNCTION>
+    <DECORATED>?testFilm@@YAXXZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Film.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>53</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

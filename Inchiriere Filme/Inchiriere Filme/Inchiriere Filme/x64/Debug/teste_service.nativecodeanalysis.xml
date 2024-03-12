@@ -1,0 +1,4673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Film.h</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Film::getId' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Film::getId</FUNCTION>
+    <DECORATED>?getId@Film@@QEBAHXZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Film.h</FILENAME>
+      <LINE>25</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Film::getAn' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Film::getAn</FUNCTION>
+    <DECORATED>?getAn@Film@@QEBAHXZ</DECORATED>
+    <FUNCLINE>25</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Film.h</FILENAME>
+      <LINE>39</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Film::setAn' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Film::setAn</FUNCTION>
+    <DECORATED>?setAn@Film@@QEAAHH@Z</DECORATED>
+    <FUNCLINE>39</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testAdaugaCtr</FUNCTION>
+    <DECORATED>?testAdaugaCtr@@YAXXZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>4</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>5</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>5</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>6</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testAdaugaCtr</FUNCTION>
+    <DECORATED>?testAdaugaCtr@@YAXXZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>4</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>5</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>5</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>6</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testAdaugaCtr</FUNCTION>
+    <DECORATED>?testAdaugaCtr@@YAXXZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>4</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>5</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>5</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>6</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testAdaugaCtr</FUNCTION>
+    <DECORATED>?testAdaugaCtr@@YAXXZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>4</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>5</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>5</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>6</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testAdaugaCtr</FUNCTION>
+    <DECORATED>?testAdaugaCtr@@YAXXZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>4</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>5</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>5</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>6</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testAdaugaCtr</FUNCTION>
+    <DECORATED>?testAdaugaCtr@@YAXXZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>4</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>5</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>5</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>6</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testAdaugaCtr</FUNCTION>
+    <DECORATED>?testAdaugaCtr@@YAXXZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>4</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>5</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>5</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>6</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testAdaugaCtr</FUNCTION>
+    <DECORATED>?testAdaugaCtr@@YAXXZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>4</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>5</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>5</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>6</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.9' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testAdaugaCtr</FUNCTION>
+    <DECORATED>?testAdaugaCtr@@YAXXZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>4</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>5</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>5</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>6</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Repository.h</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor should not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Repo::{ctor}</FUNCTION>
+    <DECORATED>??0Repo@@QEAA@XZ</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>29</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testFind</FUNCTION>
+    <DECORATED>?testFind@@YAXXZ</DECORATED>
+    <FUNCLINE>25</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>25</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>29</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testFind</FUNCTION>
+    <DECORATED>?testFind@@YAXXZ</DECORATED>
+    <FUNCLINE>25</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>25</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>29</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testFind</FUNCTION>
+    <DECORATED>?testFind@@YAXXZ</DECORATED>
+    <FUNCLINE>25</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>25</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>30</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testFind</FUNCTION>
+    <DECORATED>?testFind@@YAXXZ</DECORATED>
+    <FUNCLINE>25</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>25</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>30</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testFind</FUNCTION>
+    <DECORATED>?testFind@@YAXXZ</DECORATED>
+    <FUNCLINE>25</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>25</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>30</LINE>
+      <COLUMN>55</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testFind</FUNCTION>
+    <DECORATED>?testFind@@YAXXZ</DECORATED>
+    <FUNCLINE>25</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>25</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testUpdate_srv</FUNCTION>
+    <DECORATED>?testUpdate_srv@@YAXXZ</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>38</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testUpdate_srv</FUNCTION>
+    <DECORATED>?testUpdate_srv@@YAXXZ</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>38</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testUpdate_srv</FUNCTION>
+    <DECORATED>?testUpdate_srv@@YAXXZ</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>38</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testUpdate_srv</FUNCTION>
+    <DECORATED>?testUpdate_srv@@YAXXZ</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>39</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testUpdate_srv</FUNCTION>
+    <DECORATED>?testUpdate_srv@@YAXXZ</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>39</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testUpdate_srv</FUNCTION>
+    <DECORATED>?testUpdate_srv@@YAXXZ</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>39</LINE>
+      <COLUMN>55</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testUpdate_srv</FUNCTION>
+    <DECORATED>?testUpdate_srv@@YAXXZ</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>49</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testFiltrare</FUNCTION>
+    <DECORATED>?testFiltrare@@YAXXZ</DECORATED>
+    <FUNCLINE>45</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>49</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testFiltrare</FUNCTION>
+    <DECORATED>?testFiltrare@@YAXXZ</DECORATED>
+    <FUNCLINE>45</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>49</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testFiltrare</FUNCTION>
+    <DECORATED>?testFiltrare@@YAXXZ</DECORATED>
+    <FUNCLINE>45</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testFiltrare</FUNCTION>
+    <DECORATED>?testFiltrare@@YAXXZ</DECORATED>
+    <FUNCLINE>45</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testFiltrare</FUNCTION>
+    <DECORATED>?testFiltrare@@YAXXZ</DECORATED>
+    <FUNCLINE>45</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>55</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testFiltrare</FUNCTION>
+    <DECORATED>?testFiltrare@@YAXXZ</DECORATED>
+    <FUNCLINE>45</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>58</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testFiltrare2</FUNCTION>
+    <DECORATED>?testFiltrare2@@YAXXZ</DECORATED>
+    <FUNCLINE>54</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>58</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testFiltrare2</FUNCTION>
+    <DECORATED>?testFiltrare2@@YAXXZ</DECORATED>
+    <FUNCLINE>54</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>58</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testFiltrare2</FUNCTION>
+    <DECORATED>?testFiltrare2@@YAXXZ</DECORATED>
+    <FUNCLINE>54</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>59</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testFiltrare2</FUNCTION>
+    <DECORATED>?testFiltrare2@@YAXXZ</DECORATED>
+    <FUNCLINE>54</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>59</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testFiltrare2</FUNCTION>
+    <DECORATED>?testFiltrare2@@YAXXZ</DECORATED>
+    <FUNCLINE>54</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>59</LINE>
+      <COLUMN>55</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testFiltrare2</FUNCTION>
+    <DECORATED>?testFiltrare2@@YAXXZ</DECORATED>
+    <FUNCLINE>54</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>73</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSortare</FUNCTION>
+    <DECORATED>?testSortare@@YAXXZ</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>76</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSortare</FUNCTION>
+    <DECORATED>?testSortare@@YAXXZ</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>79</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>testSortare</FUNCTION>
+    <DECORATED>?testSortare@@YAXXZ</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>69</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testSortare</FUNCTION>
+    <DECORATED>?testSortare@@YAXXZ</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>69</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testSortare</FUNCTION>
+    <DECORATED>?testSortare@@YAXXZ</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>69</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testSortare</FUNCTION>
+    <DECORATED>?testSortare@@YAXXZ</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>70</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testSortare</FUNCTION>
+    <DECORATED>?testSortare@@YAXXZ</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>70</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testSortare</FUNCTION>
+    <DECORATED>?testSortare@@YAXXZ</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>70</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testSortare</FUNCTION>
+    <DECORATED>?testSortare@@YAXXZ</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>71</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testSortare</FUNCTION>
+    <DECORATED>?testSortare@@YAXXZ</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>71</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testSortare</FUNCTION>
+    <DECORATED>?testSortare@@YAXXZ</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>teste_service.cpp</FILENAME>
+      <LINE>71</LINE>
+      <COLUMN>55</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.9' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>testSortare</FUNCTION>
+    <DECORATED>?testSortare@@YAXXZ</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>teste_service.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>60</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'VectDinNewDeleteT&lt;Film&gt;::operator[]' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;Film&gt;::[]</FUNCTION>
+    <DECORATED>??A?$VectDinNewDeleteT@VFilm@@@@QEBAAEBVFilm@@_K@Z</DECORATED>
+    <FUNCLINE>60</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>62</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;Film&gt;::[]</FUNCTION>
+    <DECORATED>??A?$VectDinNewDeleteT@VFilm@@@@QEBAAEBVFilm@@_K@Z</DECORATED>
+    <FUNCLINE>60</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>55</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'VectDinNewDeleteT&lt;Film&gt;::operator[]' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;Film&gt;::[]</FUNCTION>
+    <DECORATED>??A?$VectDinNewDeleteT@VFilm@@@@QEAAAEAVFilm@@_K@Z</DECORATED>
+    <FUNCLINE>55</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>57</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;Film&gt;::[]</FUNCTION>
+    <DECORATED>??A?$VectDinNewDeleteT@VFilm@@@@QEAAAEAVFilm@@_K@Z</DECORATED>
+    <FUNCLINE>55</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor should not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;Film&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$VectDinNewDeleteT@VFilm@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>57</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;Film&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$VectDinNewDeleteT@VFilm@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>137</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;Film&gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$VectDinNewDeleteT@VFilm@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>136</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>template.h</FILENAME>
+        <LINE>136</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>template.h</FILENAME>
+        <LINE>137</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>template.h</FILENAME>
+        <LINE>137</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>template.h</FILENAME>
+        <LINE>137</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>101</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$VectDinNewDeleteT@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>104</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$VectDinNewDeleteT@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>104</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$VectDinNewDeleteT@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>137</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$VectDinNewDeleteT@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>136</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>template.h</FILENAME>
+        <LINE>136</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>template.h</FILENAME>
+        <LINE>137</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>template.h</FILENAME>
+        <LINE>137</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>template.h</FILENAME>
+        <LINE>137</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Film.h</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Film::id' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Film::{ctor}</FUNCTION>
+    <DECORATED>??0Film@@QEAA@XZ</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Film::id</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Film.h</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Film::an' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Film::{ctor}</FUNCTION>
+    <DECORATED>??0Film@@QEAA@XZ</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Film::an</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

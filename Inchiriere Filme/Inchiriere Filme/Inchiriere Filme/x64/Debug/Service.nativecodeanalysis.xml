@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Film.h</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Film::getId' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Film::getId</FUNCTION>
+    <DECORATED>?getId@Film@@QEBAHXZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Film.h</FILENAME>
+      <LINE>25</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Film::getAn' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Film::getAn</FUNCTION>
+    <DECORATED>?getAn@Film@@QEBAHXZ</DECORATED>
+    <FUNCLINE>25</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Film.h</FILENAME>
+      <LINE>39</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Film::setAn' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Film::setAn</FUNCTION>
+    <DECORATED>?setAn@Film@@QEAAHH@Z</DECORATED>
+    <FUNCLINE>39</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>14</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Service::generalSort</FUNCTION>
+    <DECORATED>?generalSort@Service@@AEAA?AV?$VectDinNewDeleteT@VFilm@@@@P6A_NAEBVFilm@@0@Z@Z</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Symbol 'maiMic' is never tested for nullness, it can be marked as not_null (f.23).</DESCRIPTION>
+    <FUNCTION>Service::generalSort</FUNCTION>
+    <DECORATED>?generalSort@Service@@AEAA?AV?$VectDinNewDeleteT@VFilm@@@@P6A_NAEBVFilm@@0@Z@Z</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'maiMic' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Service::generalSort</FUNCTION>
+    <DECORATED>?generalSort@Service@@AEAA?AV?$VectDinNewDeleteT@VFilm@@@@P6A_NAEBVFilm@@0@Z@Z</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>43</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Service::store_srv</FUNCTION>
+    <DECORATED>?store_srv@Service@@QEAAXHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H0@Z</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>43</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Service::store_srv</FUNCTION>
+    <DECORATED>?store_srv@Service@@QEAAXHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H0@Z</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>43</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Service::store_srv</FUNCTION>
+    <DECORATED>?store_srv@Service@@QEAAXHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H0@Z</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>87</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26822</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a null pointer 'nullptr' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Service::sortByAnGen::&lt;lambda_1&gt;::&lt;lambda_invoker_cdecl&gt;</FUNCTION>
+    <DECORATED>?&lt;lambda_invoker_cdecl&gt;@&lt;lambda_1&gt;@?1??sortByAnGen@Service@@QEAA?AV?$VectDinNewDeleteT@VFilm@@@@XZ@SA@AEBVFilm@@0@Z</DECORATED>
+    <FUNCLINE>87</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>87</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26822</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a null pointer 'nullptr' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Service::sortByAnGen::&lt;lambda_1&gt;::&lt;lambda_invoker_vectorcall&gt;</FUNCTION>
+    <DECORATED>?&lt;lambda_invoker_vectorcall&gt;@&lt;lambda_1&gt;@?1??sortByAnGen@Service@@QEAA?AV?$VectDinNewDeleteT@VFilm@@@@XZ@SQ@AEBVFilm@@0@Z</DECORATED>
+    <FUNCLINE>87</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>92</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26447</DEFECTCODE>
+    <DESCRIPTION>The function is declared 'noexcept' but calls function 'getTitlu()' which may throw exceptions (f.6).</DESCRIPTION>
+    <FUNCTION>Service::filtrareTitlu::&lt;lambda_1&gt;::()</FUNCTION>
+    <DECORATED>??R&lt;lambda_1&gt;@?1??filtrareTitlu@Service@@QEBA?AV?$VectDinNewDeleteT@VFilm@@@@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@QEBA@AEBVFilm@@@Z</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>90</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26460</DEFECTCODE>
+    <DESCRIPTION>The reference argument 'titlu_cautat' for function 'Service::filtrareTitlu' can be marked as const (con.3).</DESCRIPTION>
+    <FUNCTION>Service::filtrareTitlu</FUNCTION>
+    <DECORATED>?filtrareTitlu@Service@@QEBA?AV?$VectDinNewDeleteT@VFilm@@@@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>90</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>93</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Service::filtrareTitlu</FUNCTION>
+    <DECORATED>?filtrareTitlu@Service@@QEBA?AV?$VectDinNewDeleteT@VFilm@@@@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>90</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>93</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>93</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>99</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26447</DEFECTCODE>
+    <DESCRIPTION>The function is declared 'noexcept' but calls function 'getAn()' which may throw exceptions (f.6).</DESCRIPTION>
+    <FUNCTION>Service::filtrareAn::&lt;lambda_1&gt;::()</FUNCTION>
+    <DECORATED>??R&lt;lambda_1&gt;@?1??filtrareAn@Service@@QEBA?AV?$VectDinNewDeleteT@VFilm@@@@HH@Z@QEBA@AEBVFilm@@@Z</DECORATED>
+    <FUNCLINE>98</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>99</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26447</DEFECTCODE>
+    <DESCRIPTION>The function is declared 'noexcept' but calls function 'getAn()' which may throw exceptions (f.6).</DESCRIPTION>
+    <FUNCTION>Service::filtrareAn::&lt;lambda_1&gt;::()</FUNCTION>
+    <DECORATED>??R&lt;lambda_1&gt;@?1??filtrareAn@Service@@QEBA?AV?$VectDinNewDeleteT@VFilm@@@@HH@Z@QEBA@AEBVFilm@@@Z</DECORATED>
+    <FUNCLINE>98</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Service.cpp</FILENAME>
+      <LINE>100</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Service::filtrareAn</FUNCTION>
+    <DECORATED>?filtrareAn@Service@@QEBA?AV?$VectDinNewDeleteT@VFilm@@@@HH@Z</DECORATED>
+    <FUNCLINE>96</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>96</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>100</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>Service.cpp</FILENAME>
+        <LINE>100</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>55</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'VectDinNewDeleteT&lt;Film&gt;::operator[]' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;Film&gt;::[]</FUNCTION>
+    <DECORATED>??A?$VectDinNewDeleteT@VFilm@@@@QEAAAEAVFilm@@_K@Z</DECORATED>
+    <FUNCLINE>55</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>57</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;Film&gt;::[]</FUNCTION>
+    <DECORATED>??A?$VectDinNewDeleteT@VFilm@@@@QEAAAEAVFilm@@_K@Z</DECORATED>
+    <FUNCLINE>55</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>147</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function should not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;Film&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$VectDinNewDeleteT@VFilm@@@@QEAA@$$QEAV0@@Z</DECORATED>
+    <FUNCLINE>147</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>101</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;Film&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$VectDinNewDeleteT@VFilm@@@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor should not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;Film&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$VectDinNewDeleteT@VFilm@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>57</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;Film&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$VectDinNewDeleteT@VFilm@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>137</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;Film&gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$VectDinNewDeleteT@VFilm@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>136</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>template.h</FILENAME>
+        <LINE>136</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>template.h</FILENAME>
+        <LINE>137</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>template.h</FILENAME>
+        <LINE>137</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>template.h</FILENAME>
+        <LINE>137</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>194</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'VectDinNewDeleteT&lt;Film&gt;::get' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;Film&gt;::get</FUNCTION>
+    <DECORATED>?get@?$VectDinNewDeleteT@VFilm@@@@QEBAAEAVFilm@@H@Z</DECORATED>
+    <FUNCLINE>194</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>195</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;Film&gt;::get</FUNCTION>
+    <DECORATED>?get@?$VectDinNewDeleteT@VFilm@@@@QEBAAEAVFilm@@H@Z</DECORATED>
+    <FUNCLINE>194</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>101</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$VectDinNewDeleteT@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>104</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$VectDinNewDeleteT@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>104</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$VectDinNewDeleteT@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>137</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$VectDinNewDeleteT@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>136</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>template.h</FILENAME>
+        <LINE>136</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>template.h</FILENAME>
+        <LINE>137</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>template.h</FILENAME>
+        <LINE>137</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>template.h</FILENAME>
+        <LINE>137</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Film.h</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Film::id' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Film::{ctor}</FUNCTION>
+    <DECORATED>??0Film@@QEAA@XZ</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Film::id</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>Film.h</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Film::an' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Film::{ctor}</FUNCTION>
+    <DECORATED>??0Film@@QEAA@XZ</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Film::an</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>214</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;Film&gt;::ensureCapacity</FUNCTION>
+    <DECORATED>?ensureCapacity@?$VectDinNewDeleteT@VFilm@@@@AEAAXXZ</DECORATED>
+    <FUNCLINE>209</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>214</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26400</DEFECTCODE>
+    <DESCRIPTION>Do not assign the result of an allocation or a function call with an owner&lt;T&gt; return value to a raw pointer, use owner&lt;T&gt; instead (i.11).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;Film&gt;::ensureCapacity</FUNCTION>
+    <DECORATED>?ensureCapacity@?$VectDinNewDeleteT@VFilm@@@@AEAAXXZ</DECORATED>
+    <FUNCLINE>209</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+      <FILENAME>template.h</FILENAME>
+      <LINE>218</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>VectDinNewDeleteT&lt;Film&gt;::ensureCapacity</FUNCTION>
+    <DECORATED>?ensureCapacity@?$VectDinNewDeleteT@VFilm@@@@AEAAXXZ</DECORATED>
+    <FUNCLINE>209</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Andreea\Desktop\Inchiriere Filme\Inchiriere Filme\</FILEPATH>
+        <FILENAME>template.h</FILENAME>
+        <LINE>218</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
